@@ -13,8 +13,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
-	filter: blur(100px);
-	-webkit-filter: blur(10px);
+	filter: blur(50px);
+	-webkit-filter: blur(.5px);
 	transition: all 0.5s;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .header:hover .header-content {
 	filter: blur(2px);
-	-webkit-filter: blur(2px);
+	-webkit-filter: blur(1px);
 }
 
 .header-content {
@@ -61,7 +61,6 @@ body {
 	margin: auto;
 	overflow: none;
 	padding: 4rem 1rem;
-	border: 2px solid rgb(110, 2, 2);
 }
 
 .grid-3 {
