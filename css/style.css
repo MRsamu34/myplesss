@@ -8,8 +8,9 @@ body {
 	content: '';
 	height: 100vh;
 	width: 100%;
-	background-image: url(https://raw.githubusercontent.com/MRsamu34/Montajes_y_Pinturas_Lesss/gh-pages/Images/ceil-home-finish.jpg);
+	background-image: url(../Images/background.jpg);
 	background-size: cover;
+
 	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
