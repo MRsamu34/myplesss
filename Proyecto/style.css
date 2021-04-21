@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000000e6;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+    --dark-blue: #031f41;
+    --light-blue: #0062D2;
+    --light: #032855;
+}
+
+.header-logo {
+    width: 8rem;
+    height: 8rem;
+    align-self: center;
+
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 2rem;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+    display: flex;
+}
+
+
+.c3 {
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: row;
+    transition: transform 1s;
+}
+
+.c3:hover {
+    transform: translate(10rem);
+}
+
+.c1 {
+    background-color: var(--dark-blue);
+    height: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c2 {
+    background: var(--light-blue);
+    flex-direction: row;
+    transition: transform 1s;
+}
+
+.c2:hover {
+    transform: translate(10rem)
+}
+
+.c4 {
+    background-color: var(--light-blue);
+    transition: transform 1s;
+}
+
+.c4:hover {
+    transform: scale(.9);
+}
+
+.c5 {
+    background-color: var(--dark-blue);
+    transition: transform 1s;
+}
+
+.c5:hover {
+    transform: scale(.9);
+}
+
+.h3-galery {
+    margin: auto;
+    padding-left: 1.5rem;
+}
+
+.img-galery {
+    width: 100%;
+    min-width: 6rem;
+    max-width: 64.5rem;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.h3-services {
+    margin: auto;
+    margin-left: 2rem;
+}
+
+.service-icon {
+    font-size: 5rem;
+    margin: auto;
+}
+
+.mision-icon {
+    font-size: 5rem;
+    margin: auto;
+}
+
+.h3-mision {
+    margin: auto;
+    margin-left: 5rem;
+}
+
+.h3-vision {
+    margin: auto;
+    margin-left: 5rem;
+}
+
+.vision-icon {
+    font-size: 5rem;
+    margin: auto;
+}
+
+.footer {
+    background: #031f41;
+    padding: 2.2rem;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .c3 {
+        width: 50%;
+    }
+
+    .service-icon {
+        padding-right: 2rem;
+    }
+
+    .vision {
+        background: var(--light);
+    }
+
+    .c4 {
+        width: 50%;
+    }
+
+    .c5 {
+        width: 100%;
+    }
+
+    .img-galery {
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .c4 {
+        width: 50%;
+        order: 1;
+    }
+
+    .h3-services {
+        margin: auto;
+        margin-left: 20rem;
+    }
+
+    .service-icon {
+        font-size: 10rem;
+    }
+
+    .vision {
+        background: var(--light);
+    }
+
+    .c3 {
+        width: 100%;
+    }
+
+    .c5 {
+        width: 50%;
+        order: 2;
+    }
+}
