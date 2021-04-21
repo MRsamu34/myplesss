@@ -45,9 +45,37 @@ img {
 	width: 200px;
 }
 
+
+.proyectos {
+	text-align: end;
+	position: sticky;
+	top: 0;
+	width: 10rem;
+	background-color: #0000ffa6;
+	border-radius: .4rem;
+}
+
+.proyectos:hover {
+	background: #101ea0;
+}
+
+#proyectos {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
 .title {
 	font-family: 'Oswald', sans-serif;
-	font-size: 2rem;
+	font-size: 3rem;
+}
+
+#text1 {
+	font-size: 2.5rem;
+	font-weight: 900;
+	background: #00000038;
+	border-radius: 2rem;
+
 }
 
 .text {
