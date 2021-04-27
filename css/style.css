@@ -149,6 +149,11 @@ img {
 		display: none;
 	}
 
+	.header-content h3 {
+		background-color: #faebd74d;
+		color: #071561;
+	}
+
 	.grid-3,
 	.grid-2 {
 		grid-template-columns: 1fr;
