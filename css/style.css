@@ -141,6 +141,7 @@ img {
 	}
 
 	.header-content .logo {
+		padding-top: 2rem;
 		height: 140px;
 		width: 140px;
 	}
@@ -150,8 +151,7 @@ img {
 	}
 
 	.header-content h3 {
-		background-color: #faebd74d;
-		color: #071561;
+		color: #ededee;
 	}
 
 	.grid-3,

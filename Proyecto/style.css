@@ -90,7 +90,7 @@ body {
 }
 
 .c5 {
-    background-color: var(--dark-blue);
+    background-color: var(--light);
     transition: transform 1s;
 }
 
